@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto:ital" serif;
+}
+header {
+  background-color: #ffc017;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+.nav-list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav-list a {
+  text-decoration: none;
+  color: black;
+}
+.nav-list button {
+  border-radius: 20px;
+  padding-block: 8px;
+  background-color: black;
+}
+.nav-list button a {
+  color: white;
+}
+.second-block {
+  background-color: #ffc017;
+}
