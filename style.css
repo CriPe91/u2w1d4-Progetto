@@ -1,12 +1,23 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  font-family: "Roboto:ital" serif;
+  font-family: "roboto", sans-serif;
 }
 header {
   background-color: #ffc017;
+  border-bottom: solid 1px black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.barra {
+  width: 80%;
+  margin-inline: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding-block: 15px;
 }
 .nav-list {
   display: flex;
@@ -20,6 +31,7 @@ header {
 .nav-list button {
   border-radius: 20px;
   padding-block: 8px;
+  padding-inline: 8px;
   background-color: black;
 }
 .nav-list button a {
@@ -27,4 +39,182 @@ header {
 }
 .second-block {
   background-color: #ffc017;
+  align-items: center;
+  border-bottom: solid 1px black;
+  display: flex;
+}
+.M {
+  width: 40%;
+}
+.sottobarra {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-left: 10%;
+  margin-right: auto;
+}
+.second-block h1 {
+  font-size: 92px;
+  font-weight: bold;
+}
+.second-block p {
+  font-size: 22px;
+  padding-block: 2rem;
+  color: #000000ad;
+}
+
+.second-block button {
+  border-radius: 20px;
+  padding-block: 8px;
+  padding-inline: 30px;
+  background-color: black;
+  color: white;
+}
+.articolo img {
+  border-radius: 100%;
+  width: 25px;
+}
+.containerAll {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-inline: auto;
+  width: 80%;
+}
+.articoli {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.articolo {
+  display: flex;
+  gap: 10px;
+}
+h2 {
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-size: 20px;
+  width: 80%;
+}
+.two {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.numero {
+  font-size: 2rem;
+  color: gray;
+}
+.testo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.titolo {
+  font-weight: 600;
+  font-size: 22px;
+  width: 450px;
+}
+.info {
+  display: flex;
+  color: grey;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.contenitore {
+  display: flex;
+  gap: 8%;
+  margin-left: 2%;
+  margin-top: 8%;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+  width: 54%;
+  margin-left: 12%;
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.text {
+  width: 80%;
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+.immagine {
+  width: 240px;
+  margin-left: 30px;
+}
+
+.immagine img {
+  max-width: 100%;
+  height: auto;
+}
+
+.due {
+  display: flex;
+  align-items: center;
+}
+
+.due img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.title {
+  font-size: 25px;
+  font-weight: 550;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.date {
+  display: flex;
+  color: grey;
+  align-items: flex-end;
+  gap: 5px;
+}
+.date span {
+  border: 1px solid;
+  border-radius: 20px;
+  padding-inline: 8px;
+  background-color: #8080801c;
+}
+.author {
+  font-size: 20px;
+  margin-left: 6px;
+}
+.description {
+  font-size: 16px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-right: 52%;
+  gap: 15px;
+  position: sticky;
+  top: 5rem;
+  z-index: 0;
+}
+h3 {
+  font-size: 17px;
+  font-weight: 500;
+}
+.tags {
+  line-height: 28px;
+}
+.tags a {
+  text-decoration: none;
+}
+.links a {
+  text-decoration: none;
 }
