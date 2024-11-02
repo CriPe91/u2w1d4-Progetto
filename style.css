@@ -44,7 +44,7 @@ header {
   display: flex;
 }
 .M {
-  width: 40%;
+  width: 31%;
 }
 .sottobarra {
   display: flex;
@@ -210,11 +210,20 @@ h3 {
   font-weight: 500;
 }
 .tags {
-  line-height: 28px;
+  line-height: 30px;
 }
 .tags a {
   text-decoration: none;
+  color: grey;
 }
 .links a {
   text-decoration: none;
+  color: grey;
+  margin-right: 6px;
+  line-height: 24px;
+}
+.bookmark {
+  position: absolute;
+  width: 2rem;
+  left: 42%;
 }
